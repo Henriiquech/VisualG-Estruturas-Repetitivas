@@ -1,0 +1,26 @@
+Algoritmo "Crescente"
+
+Var
+   X, Y, soma : inteiro
+
+Inicio
+      escreval("Digite dois números: ")
+      leia(X)
+      leia(Y)
+      
+      enquanto X <> Y faca
+
+      se X > Y entao
+         escreval("DECRESCENTE!")
+      senao
+           escreval("CRESCENTE!")
+
+       fimse
+           
+      escreval("Digite outros dois números: ")
+      leia(X)
+      leia(Y)
+      
+      fimenquanto
+      
+Fimalgoritmo
