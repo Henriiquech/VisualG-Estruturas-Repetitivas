@@ -1,0 +1,23 @@
+Algoritmo "Senha_fixa"
+
+Var
+   senha, acesso : inteiro
+
+
+Inicio
+
+      escreva("Digite a senha: ")
+      leia(senha)
+
+      acesso <- 2002
+
+      enquanto senha <> acesso faca
+         escreva("Senha invalida! Tente novamente:")
+         leia(senha)
+
+      fimenquanto
+      
+      escreva("Acesso permitido")
+               
+
+Fimalgoritmo
