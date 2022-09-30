@@ -1,4 +1,4 @@
-Algoritmo "Teste_enquanto"
+Algoritmo "semnome"
 
 Var
    x, soma : inteiro
@@ -17,4 +17,4 @@ Inicio
    escreva("Soma = ", soma)
 
 
-Fimalgoritmo 
+Fimalgoritmo
