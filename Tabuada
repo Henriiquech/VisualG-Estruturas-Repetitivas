@@ -1,0 +1,17 @@
+Algoritmo "Tabuada"
+
+Var
+   N, i, soma : inteiro
+
+Inicio
+      escreva("Deseja a tabuada para qual valor? ")
+      leia(N)
+      
+      soma <- 0
+      
+      para i de 0 ate 10 faca
+           soma <- i * N
+           escreval(N," x" ,i, " =", soma)
+      fimpara
+      
+Fimalgoritmo
