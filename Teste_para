@@ -1,0 +1,20 @@
+Algoritmo "Teste_para"
+
+Var
+   N, i, X, soma : inteiro
+
+Inicio
+      escreva("Quantos números serão digitados? ")
+      leia(N)
+      
+      soma <- 0
+      
+      para i de 1 ate N faca
+           escreva("Digite um número: ")
+           leia(X)
+           soma <- soma + X
+      fimpara
+      
+      escreval("SOMA = ", soma)
+
+Fimalgoritmo
