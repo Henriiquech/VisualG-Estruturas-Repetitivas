@@ -1,0 +1,18 @@
+Algoritmo "Teste_repita_ate"
+
+Var
+   C, F : real
+   R : caractere
+Inicio
+      repita
+         escreva("Digite a temperatura em Celsius: ")
+         leia(C)
+
+         F <- (9 * C / 5) + 32
+
+         escreval("Equivalente em Fahrenheit: ", F:2:1)
+         escreva("Deseja repetir (S/N)? ")
+         leia(R)
+     ate R <> "S"
+
+Fimalgoritmo
