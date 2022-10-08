@@ -1,0 +1,26 @@
+Algoritmo "Divisao"
+
+Var
+   N, i : inteiro
+   X, Y, D : real
+
+
+Inicio
+      escreva("Quantos casos você vai digitar: ")
+      leia(N)
+      
+      para i de 1 ate N faca
+           escreva("Entre com o númerador: ")
+           leia(X)
+           escreva("Entre com o Denominador: ")
+           leia(Y)
+
+           se Y = 0 entao
+              escreval("Divisão Impossival")
+           senao
+                D <- X / Y
+                escreval("Divisão = ", D:4:2)
+           fimse
+           
+      fimpara
+Fimalgoritmo
