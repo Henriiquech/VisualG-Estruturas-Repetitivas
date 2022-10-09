@@ -1,0 +1,50 @@
+Algoritmo "Experiencias"
+
+Var
+   N, i, quantidade, totalCobaias, totalCoelhos, totalRatos, totalSapos : inteiro
+   cobaia : caractere
+   Pratos, Psapos, Pcoelhos : real
+Inicio
+      totalCoelhos <- 0
+      totalRatos <- 0
+      totalSapos <- 0
+
+      escreva("Quantos casos de teste serão realizados? ")
+      leia(N)
+      
+      para i de 1 ate N faca
+         escreva("Quantidade de cobais: ")
+         leia(quantidade)
+
+         escreva("Tipo de cobaia: ")
+         leia(cobaia)
+         escreval()
+         se cobaia = "C" entao
+            totalCoelhos <- totalCoelhos + quantidade
+         senao
+              se cobaia = "R" entao
+                  totalRatos <- totalRatos + quantidade
+              senao
+                   totalSapos <- totalSapos + quantidade
+            
+              fimse
+         fimse
+      fimpara
+      
+      totalCobaias <- totalCoelhos + totalRatos + totalSapos
+      Pcoelhos <- totalCoelhos / totalCobaias * 100
+      Pratos <- totalRatos / totalCobaias * 100
+      Psapos <- totalSapos / totalCobaias * 100
+      
+      escreval("Relatorio final: ")
+      escreval()
+      escreval("Total: ", totalCobaias, " cobaias")
+      escreval("Total de coelhos: ", totalCoelhos)
+      escreval("Total de ratos: ", totalRatos)
+      escreval("Total de sapos: ", totalSapos)
+      escreval()
+      escreval("Porcentual de coelhos: ", Pcoelhos:4:2)
+      escreval("Porcentual de ratos: ", Pratos:4:2)
+      escreval("Porcentual de sapos: ", Psapos:4:2)
+
+Fimalgoritmo
